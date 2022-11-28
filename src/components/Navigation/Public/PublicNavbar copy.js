@@ -23,7 +23,7 @@ const PublicNavbar = () => {
             <ul className="d-none d-lg-flex navbar-nav mx-auto mt-3 mt-lg-0 mb-3 mb-lg-0 position-absolute top-50 start-50 translate-middle">
               <li className="nav-item me-4">
                 <Link to="/" className="nav-link">
-                  Home
+                  finAIDs Home
                 </Link>
               </li>
               <li className="nav-item">
