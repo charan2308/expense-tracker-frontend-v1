@@ -63,7 +63,7 @@ const Login = () => {
               <h3 className="fw-bold mb-5">Login to your account</h3>
               {/* Display Err */}
               {userAppErr || userServerErr ? (
-                <div class="alert alert-danger" role="alert">
+                <div className="alert alert-danger" role="alert">
                   {userAppErr || userServerErr}
                 </div>
               ) : null}

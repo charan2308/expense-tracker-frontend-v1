@@ -64,7 +64,7 @@ const Register = ({ history }) => {
                 )}
                 {/* Display Err */}
                 {userServerErr || userAppErr ? (
-                  <div class="alert alert-danger" role="alert">
+                  <div className="alert alert-danger" role="alert">
                     {userServerErr}
                     {userAppErr}
                   </div>

@@ -10,7 +10,7 @@ const ErrorDisplayMessage = ({ children }) => {
         alignItems: "center",
       }}
     >
-      <p class="alert alert-danger" role="alert">
+      <p className="alert alert-danger" role="alert">
         {children}
       </p>
     </div>

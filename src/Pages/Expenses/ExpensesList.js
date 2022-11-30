@@ -20,14 +20,14 @@ const ExpensesList = () => {
   const expenses = useSelector(state => state.expenses);
   const { expLoading, expenseList, expAppErr, expServerErr } = expenses;
   console.log({ expLoading, expenseList, expAppErr, expServerErr });
-  const totalExp = calTransaction(expenseList?.docs ? expenseList?.docs : []);
+  //const totalExp = calTransaction(expenseList?.docs ? expenseList?.docs : []);
 
   //user Expenses
   useEffect(() => {
     dispatch(userProfileAction());
   }, []);
   const user = useSelector(state => state.users);
-  const { profile, userLoading, userAppErr, userServerErr } = user;
+  //const { profile, userLoading, userAppErr, userServerErr } = user;
 
   return (
     <>

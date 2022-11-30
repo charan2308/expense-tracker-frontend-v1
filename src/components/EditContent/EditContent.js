@@ -5,11 +5,11 @@ import { useHistory } from "react-router-dom";
 import * as Yup from "yup";
 import moneySVG from "../../img/money.svg";
 import ErrorDisplayMessage from "../ErrorDisplayMessage";
-import SuccessMessage from "../SuccessMessage";
+//import SuccessMessage from "../SuccessMessage";
 import { updateExpenseAction } from "../../redux/slices/expenses/expenseAction";
 import { updateIncomeAction } from "../../redux/slices/income/incomeSlices";
 import DisabledButton from "../DisabledButton";
-import redirectUser from "../../utils/redirect";
+//import redirectUser from "../../utils/redirect";
 import navigate from "../../utils/navigate";
 
 //Form validation
@@ -31,7 +31,7 @@ const EditContent = ({ location: { state } }) => {
     expenses;
   //income
   const income = useSelector(state => state?.income);
-  const { isIncUpdated, incLoading, incAppErr, incServerErr } = income;
+  const { isIncUpdated} = income;
   //initialize form
   const formik = useFormik({
     initialValues: {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useFormik } from "formik";
 import { useDispatch, useSelector } from "react-redux";
 import * as Yup from "yup";
@@ -6,7 +6,7 @@ import moneySVG from "../../img/money.svg";
 import { useHistory } from "react-router-dom";
 import { addNewExpAction } from "../../redux/slices/expenses/expenseAction";
 import DisabledButton from "../../components/DisabledButton";
-import redirectUser from "../../utils/redirect";
+//import redirectUser from "../../utils/redirect";
 import navigate from "../../utils/navigate";
 
 //Form validation

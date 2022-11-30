@@ -10,7 +10,7 @@ const PrivateNavbar = () => {
       <nav className="navbar navbar-expand">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
-            <i class="bi bi-currency-exchange fs-1 text-success"></i>
+            <i className="bi bi-currency-exchange fs-1 text-success"></i>
           </Link>
           <button
             className="navbar-toggler"

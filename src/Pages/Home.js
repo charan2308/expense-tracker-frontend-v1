@@ -22,6 +22,12 @@ const Home = () => {
                   <p className="lead text-muted mb-5">
                     View all your income and expenses flow in one
                     dashboard
+                    <br />
+                    Created by :
+                    <br />
+                    Divyansh Vinayak<br />
+                    Chiraag Mudlapur<br />
+                    Charan S Gowda<br />
                   </p>
                   <div className="d-flex flex-wrap">
                     <Link

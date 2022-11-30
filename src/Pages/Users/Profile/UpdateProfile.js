@@ -113,11 +113,11 @@ const UpdateProfile = ({ location: { state: data } }) => {
                   </div>
 
                   <div
-                    class="btn-group"
+                    className="btn-group"
                     role="group"
                     aria-label="Basic mixed styles example"
                   >
-                    <button type="submit" class="btn btn-warning">
+                    <button type="submit" className="btn btn-warning">
                       Update
                     </button>
                   </div>

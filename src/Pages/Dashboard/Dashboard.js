@@ -8,8 +8,8 @@ const Dashboard = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchAccountStatsAction());
-  }, []);
+    dispatch(fetchAccountStatsAction());    
+  }, );
   const statistics = useSelector(state => state.statistics);
   const { statsLoading, appErr, serverErr, stats } = statistics;
   console.log({ statsLoading, appErr, serverErr, stats });
@@ -35,7 +35,7 @@ const Dashboard = () => {
       {statsLoading ? (
         <LoadingComponent />
       ) : appErr || serverErr ? (
-        <div class="alert alert-danger" role="alert">
+          <div className="alert alert-danger" role="alert">
           {serverErr} {appErr}
         </div>
       ) : (

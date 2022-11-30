@@ -100,7 +100,7 @@ const Profile = () => {
                     className="btn"
                   >
                     Edit Profile
-                    <i class="bi bi-pen fs-3 m-3 text-primary"></i>
+                        <i className="bi bi-pen fs-3 m-3 text-primary"></i>
                   </button>
                 </div>
                 <DataGraph

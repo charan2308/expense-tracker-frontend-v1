@@ -138,21 +138,21 @@ const NewRecord = ({ history }) => {
                     </div>
                     {/* Switch */}
                     <div
-                      class="btn-group"
+                      className="btn-group"
                       role="group"
                       aria-label="Basic mixed styles example"
                     >
                       <button
                         onClick={isExpHandler}
                         type="button"
-                        class="btn btn-warning"
+                        className="btn btn-warning"
                       >
                         Expense
                       </button>
                       <button
                         onClick={isIncHandler}
                         type="button"
-                        class="btn btn-success"
+                        className="btn btn-success"
                       >
                         Income
                       </button>
@@ -248,21 +248,21 @@ const NewRecord = ({ history }) => {
                     </div>
                     {/* Switch */}
                     <div
-                      class="btn-group"
+                        className="btn-group"
                       role="group"
                       aria-label="Basic mixed styles example"
                     >
                       <button
                         onClick={isExpHandler}
                         type="button"
-                        class="btn btn-warning"
+                          className="btn btn-warning"
                       >
                         Expense
                       </button>
                       <button
                         onClick={isIncHandler}
                         type="button"
-                        class="btn btn-success"
+                          className="btn btn-success"
                       >
                         Income
                       </button>
